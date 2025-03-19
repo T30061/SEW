@@ -1,4 +1,4 @@
-package htl.teddy_com;
+package htl.teddy_com.code;
 
 
 public class Main {

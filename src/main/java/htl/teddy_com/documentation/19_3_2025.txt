@@ -1,0 +1,4 @@
+Heute haben wir angefangen mit einem Test und danach das tool GIT kennengelernt.
+Wir benutzen GITLab obwohl ich kein fan davon bin.
+
+(Fick Eclipse und Gitlab)
