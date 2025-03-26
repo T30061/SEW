@@ -6,10 +6,11 @@ public class _Main_ArrayChecker {
         _ArrayChecker ac = new _ArrayChecker();
 
         int[] array1 = {1, 2, 3, 4, 5};
-        int[] array3 = {1, 3, 4, 5,3,3,3};
+        int[] array3 = {1, 2, 3, 5};
 
         //System.out.println(ac.isArrayContnuous(array1));
         //System.out.println(ac.isArrayContnuous(array3));
-        System.out.println(ac.countOcc(3, array1));
+        //System.out.println(ac.countOcc(3, array1));
+        ac.histo(array1);
     }
 }
