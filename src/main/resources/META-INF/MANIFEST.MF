@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: htl.teddy_com.code._04.homework._2_4._Main
+
