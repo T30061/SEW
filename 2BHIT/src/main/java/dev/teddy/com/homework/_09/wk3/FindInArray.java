@@ -1,4 +1,4 @@
-package dev.teddy.com.homework._09;
+package dev.teddy.com.homework._09.wk3;
 
 public class FindInArray {
 
