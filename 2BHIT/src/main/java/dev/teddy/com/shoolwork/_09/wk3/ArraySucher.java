@@ -1,4 +1,4 @@
-package dev.teddy.com.shoolwork._09;
+package dev.teddy.com.shoolwork._09.wk3;
 
 import java.util.Scanner;
 

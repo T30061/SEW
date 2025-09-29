@@ -14,20 +14,15 @@ public class ArrayElement {
         containsElm("Rafi");
     }
 
-
     public static void insertElm(String name){
         names.add(name);
-        System.out.println("added");
     }
 
     public static void deleteElm(String name){
         names.remove(name);
-        System.out.println("del");
     }
 
     public static void containsElm(String name){
         names.contains(name);
-        System.out.println("true");
     }
-
 }
