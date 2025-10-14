@@ -9,5 +9,8 @@
         <module name="2BHIT" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SEW" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>
