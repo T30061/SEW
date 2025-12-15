@@ -23,6 +23,8 @@ class JUnit_Person {
         assertEquals("Person Gibt es schon", exception.getMessage());
     }
 
+
+
     @Test
     void testAddPersonWhenListFull() {
         PersonList list = new PersonList(1);
