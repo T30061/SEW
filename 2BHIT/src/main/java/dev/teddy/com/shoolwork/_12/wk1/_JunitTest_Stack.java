@@ -1,4 +1,5 @@
 package dev.teddy.com.shoolwork._12.wk1;
+import dev.teddy.com.shoolwork._11.wk1.wk1.Mitarbeiter;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -90,11 +91,11 @@ public class _JunitTest_Stack {
 
     @Test
     void testStackWithEmployeeObjects() {
-        Stack<Stack_Employee> stack = new Stack<>();
+        Stack<Object> stack = new Stack<>();
 
-        Stack_Employee e1 = new Stack_Employee("Alice", 1);
-        Stack_Employee e2 = new Stack_Employee("Bob", 2);
-        Stack_Employee e3 = new Stack_Employee("Charlie", 3);
+        Mitarbeiter e1 = new Mitarbeiter("Alice", 421,1);
+        Mitarbeiter e2 = new Mitarbeiter("Bob",421, 2);
+        Mitarbeiter e3 = new Mitarbeiter("Charlie", 421,3);
 
         stack.push(e1);
         stack.push(e2);

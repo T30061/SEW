@@ -17,8 +17,9 @@ public class _Main_Stack {
         employeeStack.push(m3);//oberste
         employeeStack.push(ma1);//oberste
 
-        for(Object obj: employeeStack){
-            employeeStack.pop();
+        while (!employeeStack.isEmpty()) {
+            System.out.println(employeeStack.pop().toString());
         }
+
     }
 }

@@ -18,11 +18,14 @@ public class Mitarbeiter {
         System.out.println(name + " verdient " + berechneGehalt() + " €");
     }
 
-    public void druckeInfo(boolean mitTitel) {
-        if (mitTitel) {
-            System.out.println("--- Mitarbeiterinfo ---");
-        }
-        druckeInfo();
+    @Override
+    public String toString() {
+        return "Mitarbeiter{" +
+                "name='" + name + '\'' +
+                ", grundgehalt=" + grundgehalt +
+                ", id=" + id +
+                '}';
     }
+
 }
 

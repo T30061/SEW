@@ -8,7 +8,7 @@ public class MitarbeiterTest {
 
         System.out.println("=== Einzeltests ===");
         m1.druckeInfo();
-        e1.druckeInfo(true);
+        e1.druckeInfo();
         e1.arbeite();
         e2.arbeite();
 
@@ -16,7 +16,7 @@ public class MitarbeiterTest {
         Mitarbeiter[] liste = {m1, e1, e2};
 
         for (Mitarbeiter m : liste) {
-            m.druckeInfo(true);
+            m.druckeInfo();
         }
     }
 }
