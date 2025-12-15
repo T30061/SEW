@@ -5,10 +5,10 @@ import dev.teddy.com.shoolwork._11.wk1.wk1.Mitarbeiter;
 public class _Main_Stack {
     public static void main(String[] args) {
         Stack<Object> employeeStack = new Stack<>();//new stack
-        Mitarbeiter m1 = new Mitarbeiter("Bob", 21321, 12321);
-        Mitarbeiter m2 = new Mitarbeiter("Bob1", 21821, 22321);
-        Mitarbeiter m3 = new Mitarbeiter("Bob2", 21721, 32321);
-        Mitarbeiter m4 = new Mitarbeiter("Bob3", 21521, 42321);
+        Mitarbeiter m1 = new Mitarbeiter("Bob", 21321, 12);
+        Mitarbeiter m2 = new Mitarbeiter("Bob1", 21821, 22);
+        Mitarbeiter m3 = new Mitarbeiter("Bob2", 21721, 32);
+        Mitarbeiter m4 = new Mitarbeiter("Bob3", 21521, 42);
         Manager ma1 = new Manager("Tim",321521312,1251251, 1);
 
         employeeStack.push(m1);//push new Stack_Employee on Stack

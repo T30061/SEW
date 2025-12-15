@@ -2,7 +2,6 @@ package dev.teddy.com.shoolwork._12.wk1;
 
 public class Stack<T> {
     private Node<T> top;
-    private int size;
 
     private static class Node<T> {
         final T data;
@@ -17,7 +16,6 @@ public class Stack<T> {
         Node<T> newNode = new Node<>(element);
         newNode.next = top;
         top = newNode;
-        size++;
     }
 
     public T peek() {
@@ -31,7 +29,6 @@ public class Stack<T> {
             return null;
         T data = top.data;
         top = top.next;
-        size--;
         return data;
     }
 

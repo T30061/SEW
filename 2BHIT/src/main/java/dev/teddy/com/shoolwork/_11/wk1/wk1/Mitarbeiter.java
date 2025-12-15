@@ -8,6 +8,7 @@ public class Mitarbeiter {
     public Mitarbeiter(String name, double grundgehalt,int id) {
         this.name = name;
         this.grundgehalt = grundgehalt;
+        this.id =id;
     }
 
     public double berechneGehalt() {
@@ -20,11 +21,11 @@ public class Mitarbeiter {
 
     @Override
     public String toString() {
-        return "Mitarbeiter{" +
-                "name='" + name + '\'' +
+        return "Mitarbeiter[" +
+                " name='" + name + '\'' +
                 ", grundgehalt=" + grundgehalt +
                 ", id=" + id +
-                '}';
+                " ]";
     }
 
 }
