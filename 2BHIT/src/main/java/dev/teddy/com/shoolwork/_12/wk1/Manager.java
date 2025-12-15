@@ -1,9 +1,11 @@
 package dev.teddy.com.shoolwork._12.wk1;
 
-public class Manager extends Stack_Employee{
+import dev.teddy.com.shoolwork._11.wk1.wk1.Mitarbeiter;
+
+public class Manager extends Mitarbeiter {
     private double bonus, Grundgehalt;
     public Manager(String name, double Grundgehalt, double bonus, int id) {
-        super(name, id);
+        super(name,Grundgehalt, id);
         this.Grundgehalt = Grundgehalt;
         this.bonus = bonus;
     }

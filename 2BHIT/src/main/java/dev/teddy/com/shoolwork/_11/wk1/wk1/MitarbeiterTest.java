@@ -2,9 +2,9 @@ package dev.teddy.com.shoolwork._11.wk1.wk1;
 
 public class MitarbeiterTest {
     public static void main(String[] args) {
-        Manager m1 = new Manager("Anna", 5000, 1500);
-        Entwickler e1 = new Entwickler("Ben", 4000, "Java");
-        Entwickler e2 = new Entwickler("Clara", 4000, "Python");
+        Manager m1 = new Manager("Anna", 5000, 1500,102);
+        Entwickler e1 = new Entwickler("Ben", 4000, "Java", 100);
+        Entwickler e2 = new Entwickler("Clara", 4000, "Python",101);
 
         System.out.println("=== Einzeltests ===");
         m1.druckeInfo();

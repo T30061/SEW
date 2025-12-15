@@ -1,21 +1,24 @@
 package dev.teddy.com.shoolwork._12.wk1;
 
+import dev.teddy.com.shoolwork._11.wk1.wk1.Mitarbeiter;
+
 public class _Main_Stack {
     public static void main(String[] args) {
-        Stack<Stack_Employee> employeeStack = new Stack<>();//new stack
-        Stack_Employee e1 = new Stack_Employee("Alice", 101);
-        Stack_Employee e2 = new Stack_Employee("Bob", 102);//stack Employee
-        Stack_Employee e3 = new Stack_Employee("Charlie", 103);
+        Stack<Object> employeeStack = new Stack<>();//new stack
+        Mitarbeiter m1 = new Mitarbeiter("Bob", 21321, 12321);
+        Mitarbeiter m2 = new Mitarbeiter("Bob1", 21821, 22321);
+        Mitarbeiter m3 = new Mitarbeiter("Bob2", 21721, 32321);
+        Mitarbeiter m4 = new Mitarbeiter("Bob3", 21521, 42321);
+        Manager ma1 = new Manager("Tim",321521312,1251251, 1);
 
-        employeeStack.push(e1);//push new Stack_Employee on Stack
-        employeeStack.push(e2);
-        employeeStack.push(e3);//oberste
+        employeeStack.push(m1);//push new Stack_Employee on Stack
+        employeeStack.push(m2);
+        employeeStack.push(m4);
+        employeeStack.push(m3);//oberste
+        employeeStack.push(ma1);//oberste
 
-        System.out.println("Peek: " + employeeStack.peek());
-        System.out.println("Pop: " + employeeStack.pop());//output
-        System.out.println("Pop: " + employeeStack.pop());
-        System.out.println("Peek nach zwei Pops: " + employeeStack.peek());
-        System.out.println("Pop: " + employeeStack.pop());
-        System.out.println("Peek nach drei Pops: " + employeeStack.peek());
+        for(Object obj: employeeStack){
+            employeeStack.pop();
+        }
     }
 }

@@ -1,6 +1,6 @@
 package dev.teddy.com.shoolwork.other_parts.hbgl;
 
-abstract class _Shape {
+public abstract class _Shape {
     public float a, b, c,d;
 
     public abstract void draw();

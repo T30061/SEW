@@ -3,8 +3,8 @@ package dev.teddy.com.shoolwork._11.wk1.wk1;
 public class Entwickler extends Mitarbeiter {
     private String programmiersprache;
 
-    public Entwickler(String name, double grundgehalt, String programmiersprache) {
-        super(name, grundgehalt);
+    public Entwickler(String name, double grundgehalt, String programmiersprache, int id) {
+        super(name, grundgehalt, id);
         this.programmiersprache = programmiersprache;
     }
 

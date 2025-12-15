@@ -1,7 +1,5 @@
 package dev.teddy.com.shoolwork._12.wk1;
 
-import java.util.EmptyStackException;
-
 public class Stack<T> {
     private Node<T> top;
     private int size;
@@ -43,9 +41,8 @@ public class Stack<T> {
 
     @Override
     public String toString() {
-        if (isEmpty()) {
+        if (isEmpty())
             return "Stack[empty]";
-        }
 
         StringBuilder sb = new StringBuilder("Stack[");
         Node<T> current = top;
